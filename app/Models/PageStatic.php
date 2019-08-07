@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class PageStatic extends Model
+{
+    protected $table = 'page_statics';
+    protected $guarded = [''];
+    const TYPE_ABOUT = 1;
+    const TYPE_INFO_SHiPPING = 2;
+    const TYPE_BAOMAT = 3;
+    const TYPE_DIEUKHOAN = 4;
+}
